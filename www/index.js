@@ -35,7 +35,7 @@ function jsSort(array) {
     let end = Date.now();
     const ms = end - start
     document.getElementById('jsResult').textContent = ms + " Milliseconds"
-    console.log('Sorted with WASM in ' + ms + ' milliseconds')
+    console.log('Sorted with JS in ' + ms + ' milliseconds')
     return ms
 }
 
