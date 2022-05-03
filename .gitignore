@@ -1,0 +1,14 @@
+/target
+/node_modules
+**/*.rs.bk
+Cargo.lock
+bin/
+pkg/
+wasm-pack.log
+
+vcpkg/
+
+.idea/
+
+www/.bin/
+www/node_modules
